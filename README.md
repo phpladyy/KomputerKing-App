@@ -1,2 +1,2 @@
 # KomputerKing-App
-Mirrored repository into my Projects folder
+![Logo projektu](https://github.com/MayaTakenOutOfCode/KomputerKing-App/blob/main/app/src/main/res/drawable/vivid_media.png)

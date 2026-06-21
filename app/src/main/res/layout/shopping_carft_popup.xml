@@ -19,136 +19,18 @@
         android:layout_marginBottom="8dp" />
 
     <!-- Grid Layout for Products -->
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
     <GridLayout
         android:id="@+id/shopping_cart_items_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:rowCount="2"
-        android:columnCount="2"
+        android:rowCount="19"
+        android:columnCount="1"
         android:textColor = "@color/black"
-
         android:alignmentMode="alignMargins"
         android:padding="8dp"
         android:layout_gravity="center">
 
-        <!-- First Product -->
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_margin="8dp"
-            android:gravity="center">
 
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/ic_launcher_background" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/produkt_name"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:gravity="center" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/cena_display"
-                android:textColor="@color/black"
-                android:gravity="center" />
-        </LinearLayout>
-
-        <!-- Second Product -->
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_margin="8dp"
-            android:gravity="center">
-
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/ic_launcher_background" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/produkt_name"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:gravity="center" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/cena_display"
-                android:textColor="@color/black"
-                android:gravity="center" />
-        </LinearLayout>
-
-        <!-- Third Product -->
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_margin="8dp"
-            android:gravity="center">
-
-            <ImageView
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:src="@drawable/ic_launcher_background" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/produkt_name"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:gravity="center" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/cena_display"
-                android:textColor="@color/black"
-                android:gravity="center" />
-        </LinearLayout>
-
-        <!-- Fourth Product -->
-<!--        <LinearLayout-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:orientation="vertical"-->
-<!--            android:layout_margin="8dp"-->
-<!--            android:gravity="center">-->
-
-<!--            <ImageView-->
-<!--                android:layout_width="100dp"-->
-<!--                android:layout_height="100dp"-->
-<!--                android:src="@drawable/ic_launcher_background" />-->
-
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="@string/produkt_name"-->
-<!--                android:textColor="@color/black"-->
-<!--                android:textStyle="bold"-->
-<!--                android:gravity="center" />-->
-
-<!--            <TextView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:text="@string/cena_display"-->
-<!--                android:textColor="@color/black"-->
-<!--                android:gravity="center" />-->
-<!--        </LinearLayout>-->
-        </GridLayout>
-    </ScrollView>
+    </GridLayout>
 </LinearLayout>
