@@ -1,2 +1,3 @@
 # KomputerKing-App
-![Logo projektu](https://github.com/MayaTakenOutOfCode/KomputerKing-App/blob/main/app/src/main/res/drawable/vivid_media.png)
+
+Shopping Phone App template with working shopping cart and account registration system
